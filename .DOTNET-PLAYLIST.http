@@ -1,0 +1,6 @@
+@_DOTNET_PLAYLIST_HostAddress = http://localhost:5264
+
+GET {{_DOTNET_PLAYLIST_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
