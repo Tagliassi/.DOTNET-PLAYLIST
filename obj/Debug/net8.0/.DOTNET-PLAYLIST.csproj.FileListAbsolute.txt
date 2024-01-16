@@ -30,3 +30,36 @@ C:\Users\gabid\Desktop\.DOTNET-PLAYLIST\obj\Debug\net8.0\refint\.DOTNET-PLAYLIST
 C:\Users\gabid\Desktop\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.pdb
 C:\Users\gabid\Desktop\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.genruntimeconfig.cache
 C:\Users\gabid\Desktop\.DOTNET-PLAYLIST\obj\Debug\net8.0\ref\.DOTNET-PLAYLIST.dll
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\appsettings.json
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\.DOTNET-PLAYLIST.exe
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\.DOTNET-PLAYLIST.deps.json
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\.DOTNET-PLAYLIST.runtimeconfig.json
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\.DOTNET-PLAYLIST.dll
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\.DOTNET-PLAYLIST.pdb
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.csproj.AssemblyReference.cache
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.AssemblyInfoInputs.cache
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.AssemblyInfo.cs
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.csproj.CoreCompileInputs.cache
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.sourcelink.json
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\staticwebassets\msbuild..DOTNET-PLAYLIST.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\staticwebassets\msbuild.build..DOTNET-PLAYLIST.props
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting..DOTNET-PLAYLIST.props
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive..DOTNET-PLAYLIST.props
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\scopedcss\bundle\.DOTNET-PLAYLIST.styles.css
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.csproj.CopyComplete
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.dll
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\refint\.DOTNET-PLAYLIST.dll
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.pdb
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\.DOTNET-PLAYLIST.genruntimeconfig.cache
+C:\Users\Play\OneDrive - Grupo Marista\.DOTNET-PLAYLIST\obj\Debug\net8.0\ref\.DOTNET-PLAYLIST.dll

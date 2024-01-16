@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabid\\Desktop\\.DOTNET-PLAYLIST\\.DOTNET-PLAYLIST.csproj": {}
+    "C:\\Users\\Play\\OneDrive - Grupo Marista\\.DOTNET-PLAYLIST\\.DOTNET-PLAYLIST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabid\\Desktop\\.DOTNET-PLAYLIST\\.DOTNET-PLAYLIST.csproj": {
+    "C:\\Users\\Play\\OneDrive - Grupo Marista\\.DOTNET-PLAYLIST\\.DOTNET-PLAYLIST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabid\\Desktop\\.DOTNET-PLAYLIST\\.DOTNET-PLAYLIST.csproj",
+        "projectUniqueName": "C:\\Users\\Play\\OneDrive - Grupo Marista\\.DOTNET-PLAYLIST\\.DOTNET-PLAYLIST.csproj",
         "projectName": ".DOTNET-PLAYLIST",
-        "projectPath": "C:\\Users\\gabid\\Desktop\\.DOTNET-PLAYLIST\\.DOTNET-PLAYLIST.csproj",
-        "packagesPath": "C:\\Users\\gabid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabid\\Desktop\\.DOTNET-PLAYLIST\\obj\\",
+        "projectPath": "C:\\Users\\Play\\OneDrive - Grupo Marista\\.DOTNET-PLAYLIST\\.DOTNET-PLAYLIST.csproj",
+        "packagesPath": "C:\\Users\\Play\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Play\\OneDrive - Grupo Marista\\.DOTNET-PLAYLIST\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Play\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
