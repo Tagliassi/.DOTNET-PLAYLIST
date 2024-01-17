@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 using Microsoft.Extensions.Logging;
 using _DOTNET_PLAYLIST.Models;
+using System.Text.Json.Serialization;
 
 namespace _DOTNET_PLAYLIST.Controllers
 {
@@ -13,6 +15,13 @@ namespace _DOTNET_PLAYLIST.Controllers
     public class PlaylistController : ControllerBase
     {
         static private List<Artista> artistas;
+
+        //Sugestão do ChatGPT para resolver o problema de "A possible object cycle was detected."
+        private static readonly JsonSerializerOptions jsonOptions = new JsonSerializerOptions
+        {
+            ReferenceHandler = ReferenceHandler.Preserve,
+            
+        };
 
         public PlaylistController()
         {
@@ -41,6 +50,16 @@ namespace _DOTNET_PLAYLIST.Controllers
                 Console.WriteLine($"Erro: {ex.Message}");
                 Console.WriteLine($"Sugestão de correção: {ex.SugestaoCorrecao}");
             }
+            catch (AlbumException ex)
+            {
+                Console.WriteLine($"Erro ao adicionar álbum: {ex.Message}");
+                Console.WriteLine($"Sugestão de correção: {ex.SugestaoCorrecao}");
+            }
+            catch (MusicaException ex)
+            {
+                Console.WriteLine($"Erro ao adicionar música: {ex.Message}");
+                Console.WriteLine($"Sugestão de correção: {ex.SugestaoCorrecao}");
+            }
             catch (Exception e)
             {
                 throw new Exception(e.Message);
@@ -48,9 +67,9 @@ namespace _DOTNET_PLAYLIST.Controllers
         }
 
         [HttpGet]
-        public List<Artista> GetTodosArtistas()
+        public ActionResult<List<Artista>> GetTodosArtistas()
         {
-            return artistas;
+            return Ok(artistas);
         }
 
         [HttpGet("byNome/{nome}")]
@@ -86,8 +105,8 @@ namespace _DOTNET_PLAYLIST.Controllers
             }
         }
 
-        [HttpPut("atualizarArtista/{nome}")]
-        public IActionResult AtualizarArtista(string nome, [FromRoute] string novoNome, [FromRoute] int novaIdade)
+        [HttpPut("atualizarArtista/{nome}/{novoNome}/{novaIdade}")]
+        public IActionResult AtualizarArtista(string nome, string novoNome, int novaIdade)
         {
             try
             {
@@ -216,7 +235,11 @@ namespace _DOTNET_PLAYLIST.Controllers
                 {
                     Album novoAlbum = new Album(nome, generoAlbum, anoLancamento, artista);
                     artista.Albums.Add(novoAlbum);
-                    return Ok(novoAlbum);
+
+                    //Sugestão do ChatGPT para resolver o problema de "A possible object cycle was detected."
+                    string json = JsonSerializer.Serialize(novoAlbum, jsonOptions);
+
+                    return Ok(json);
                 }
                 else
                 {
@@ -365,7 +388,12 @@ namespace _DOTNET_PLAYLIST.Controllers
                 {
                     Musica novaMusica = new Musica(nome, generoMusica, anoLancamento, album.ArtistaAlbum, album);
                     album.Musicas.Add(novaMusica);
-                    return Ok(novaMusica);
+
+                    //Sugestão do ChatGPT para resolver o problema de "A possible object cycle was detected."
+                    string json = JsonSerializer.Serialize(novaMusica, jsonOptions);
+
+                    return Ok(json);
+                    //return Ok(novaMusica);
                 }
                 else
                 {
